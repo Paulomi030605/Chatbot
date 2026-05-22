@@ -1,0 +1,8 @@
+gradio==6.14.0
+numpy<2
+onnxruntime
+tokenizers
+chromadb==0.4.24
+llama-cpp-python==0.2.90
+pypdf
+python-docx
