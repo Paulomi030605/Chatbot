@@ -1,1 +1,40 @@
-# My contribution in this project was building and deploying a document-based AI assistant where users can upload files and ask questions from those documents. I worked on the complete RAG pipeline: file upload, PDF/DOCX/TXT conversion into Markdown, storing documents in the docs folder, creating embeddings using ONNX MiniLM, indexing data in ChromaDB, retrieving relevant chunks, and adding a lightweight SLM layer to generate structured answers. I also optimized the app for Hugging Face Spaces by reducing response time, fixing dependency conflicts, managing requirements.txt, handling Gradio deployment issues, and improving the answer format with source-backed responses.
+# Contribution
+
+## AI-Powered Document Assistant (RAG Pipeline)
+
+My contribution to this project involved building and deploying a document-based AI assistant that allows users to upload documents and ask questions directly from those files.
+
+### Key Contributions
+
+- Built the complete Retrieval-Augmented Generation (RAG) pipeline
+- Implemented file upload and processing for:
+  - PDF
+  - DOCX
+  - TXT
+- Converted uploaded documents into Markdown format
+- Managed document storage inside the `docs/` directory
+- Generated embeddings using ONNX MiniLM
+- Indexed document chunks using ChromaDB
+- Implemented semantic retrieval for relevant context extraction
+- Added a lightweight SLM layer for structured answer generation
+- Improved response formatting with source-backed answers
+- Optimized application performance for Hugging Face Spaces deployment
+- Reduced response latency and improved inference efficiency
+- Fixed dependency conflicts and deployment-related issues
+- Managed and optimized `requirements.txt`
+- Resolved Gradio deployment and runtime issues
+
+### Technologies Used
+
+- Python
+- Gradio
+- ChromaDB
+- ONNX Runtime
+- MiniLM Embeddings
+- Hugging Face Spaces
+- Markdown Processing
+- Retrieval-Augmented Generation (RAG)
+
+### Outcome
+
+The final system enables users to upload documents and receive fast, context-aware, and source-supported AI-generated responses with an optimized lightweight deployment pipeline.
